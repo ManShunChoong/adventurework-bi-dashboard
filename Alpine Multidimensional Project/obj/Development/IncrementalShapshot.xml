@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Alpine Multidimensional Project</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>q9uxU/BWvmtjceXBIYACLI2KX24=15 May 2021 5:51:35 PM15 May 2021 5:51:35 PM</TimeStamp>
+        <ID>
+          <String>Adventure Works DW2019</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>kHOOMJkwc5H4nOIOuqAxg7xpRgM=15 May 2021 6:34:07 PM15 May 2021 6:34:06 PM</TimeStamp>
+        <ID>
+          <String>Adventure Works DW2019</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5lLcBno2VlPvFCMQyoKX77b5AWI=17 May 2021 5:15:43 PM15 May 2021 6:34:35 PM</TimeStamp>
+        <ID>
+          <String>Dim Promotion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vsagheVaXjsMyy2CbWmMiYUkl1Q=16 May 2021 1:05:16 AM15 May 2021 6:34:35 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZGyiNR/Q9EkFEiDIPCjGxIo06R4=15 May 2021 6:55:46 PM15 May 2021 6:34:35 PM</TimeStamp>
+        <ID>
+          <String>Dim Sales Territory</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QGH/eFr0AllpEXk6UF1AnOeoFQ4=17 May 2021 6:26:50 PM15 May 2021 6:34:35 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>dZ2RYeDyGrlQ1ospv2/M9RDCeV8=17 May 2021 6:27:09 PM15 May 2021 6:34:35 PM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+KRQGaMHAhU19wiwAUELH6b5F+M=17 May 2021 6:14:37 PM15 May 2021 6:34:35 PM</TimeStamp>
+        <ID>
+          <String>Dim Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>L6gFlqGUdzLlBSJtoIA1dhpthgM=15 May 2021 7:47:00 PM15 May 2021 6:34:35 PM</TimeStamp>
+        <ID>
+          <String>Dim Sales Reason</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>naPlHz9M0PYqaxLbz2BfKNsR0V0=17 May 2021 6:11:45 PM15 May 2021 6:34:35 PM</TimeStamp>
+        <ID>
+          <String>Dim Reseller</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>itkvGRRFVtnfAA/SM8ld2W8W8ZI=17 May 2021 6:28:02 PM15 May 2021 6:34:35 PM+voLecqmWS9Sfm6nFJSa5qpqbRo=15 May 2021 6:34:35 PM15 May 2021 6:34:35 PM</TimeStamp>
+        <ID>
+          <String>Adventure Works DW2019</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>h9aT9foWfriAWY5q9k/gjfAZI5Q=15 May 2021 5:47:45 PM15 May 2021 5:47:44 PM</TimeStamp>
+      <ID>
+        <String>Alpine Multidimensional Project</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-05-17T10:28:30.343333Z</LastDeployed>
+</DeploymentSnapshot>

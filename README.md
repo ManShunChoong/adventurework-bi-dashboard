@@ -1,4 +1,4 @@
-# alpine-bi-dashboard
+# Alpine BI Dashboard
 Power BI dashboard is generated from the data cube created.
 
 ![image](https://user-images.githubusercontent.com/72306346/201425684-83d644ca-2d1b-40bd-9bda-143a2f4d8342.png)
